@@ -1,0 +1,116 @@
+[
+  {
+    "id": "712dcaa6-d93b-4920-9f82-40ea5052f176",
+    "data": [
+      {
+        "text": "夜",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      },
+      {
+        "text": "は何時まで開いてますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e022475-9480-44d1-a4ac-b376a76b4989",
+    "data": [
+      {
+        "text": "朝",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      },
+      {
+        "text": "は何時から開いてますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c750965d-000d-4561-8409-853408cb72b8",
+    "data": [
+      {
+        "text": "閉店時間を教えてください。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a2c5e8de-2331-4efe-88b3-338c383d01a2",
+    "data": [
+      {
+        "text": "開店時間を教えてください。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "362def8d-eb09-4aed-a18a-af973dd0b339",
+    "data": [
+      {
+        "text": "何時からやってますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6aa4bea9-93a0-4675-a6c9-9a7bb7381073",
+    "data": [
+      {
+        "text": "何時に閉まりますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ce4afad8-ef49-49db-84c0-a83a29c2a06c",
+    "data": [
+      {
+        "text": "今日は",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "何時まで開いていますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e01c45f1-3fe3-46b4-8546-03458ea06558",
+    "data": [
+      {
+        "text": "営業時間は？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

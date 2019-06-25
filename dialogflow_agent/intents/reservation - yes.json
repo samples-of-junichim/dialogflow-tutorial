@@ -1,0 +1,32 @@
+{
+  "id": "24436452-c778-4015-88b4-a0a95cabe531",
+  "parentId": "5dcb155c-3d37-4af7-bd7e-af2fe343ce59",
+  "rootParentId": "5dcb155c-3d37-4af7-bd7e-af2fe343ce59",
+  "name": "reservation - yes",
+  "auto": true,
+  "contexts": [
+    "reservation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reservation.reservation-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

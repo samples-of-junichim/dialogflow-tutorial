@@ -1,0 +1,128 @@
+[
+  {
+    "id": "69287111-1b90-4e52-a14c-54dbe9e5169d",
+    "data": [
+      {
+        "text": "今日",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "、バイクを直せませんか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d716a82c-4560-4faa-a100-0355500287da",
+    "data": [
+      {
+        "text": "サービスが必要なマウンテンバイクがあるので、バイクを修理したいと思います。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7773208f-17bc-40c0-b734-3e2988deec38",
+    "data": [
+      {
+        "text": "バイクが壊れてしまいました。",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "13aef855-2d4c-4d82-89c2-61d892bcc7e8",
+    "data": [
+      {
+        "text": "バイクを修理してもらえませんか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fe792e97-6d51-4dd1-97b4-de18a72d9ac2",
+    "data": [
+      {
+        "text": "金曜日の",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "正午に",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": "予約をお願いできませんか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ddf76297-c4ca-44a4-aa07-4dc0292c0435",
+    "data": [
+      {
+        "text": "明日の",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "午後4時に",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": "予約を取ることはできますか？",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a590563e-1dc1-45a7-b46f-80b3e2567d5b",
+    "data": [
+      {
+        "text": "今日の",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "午後3時に",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": "予約をお願いします",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

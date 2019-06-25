@@ -1,0 +1,28 @@
+{
+  "id": "48dc73ac-3007-4153-bace-75e8c5c7a3e9",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "申し訳ありません。営業時間のご連絡、または予約の受付が可能です。どちらがご希望ですか？"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

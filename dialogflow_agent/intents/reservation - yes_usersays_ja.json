@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ae17f700-6e6f-4a4b-995c-f4cfa263ddc9",
+    "data": [
+      {
+        "text": "もちろん",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b4c67116-3aa7-4632-bfc8-94917355944e",
+    "data": [
+      {
+        "text": "やって",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "98dec408-0b17-4426-b5aa-c9d8e447f1ef",
+    "data": [
+      {
+        "text": "賛成です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "94b9624f-468f-4615-a42e-db8d255a5c7d",
+    "data": [
+      {
+        "text": "そのとおり",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "d5297fec-353a-45ee-b451-ec4cacac3a8c",
+    "data": [
+      {
+        "text": "はい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "131351a4-0d40-404a-a2a0-e49aa56ba048",
+    "data": [
+      {
+        "text": "そうする",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4eb97ac0-7681-4132-a35f-e8fee109fa72",
+    "data": [
+      {
+        "text": "いいよ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a84eb577-de39-485c-9316-fd61b67df307",
+    "data": [
+      {
+        "text": "同意します",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "updated": 0
+  },
+  {
+    "id": "d3530f54-f244-4509-93cb-47833b3e75b5",
+    "data": [
+      {
+        "text": "そうしよう",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ead7fd58-3a94-4dcf-9409-1692117c163d",
+    "data": [
+      {
+        "text": "そうだね",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

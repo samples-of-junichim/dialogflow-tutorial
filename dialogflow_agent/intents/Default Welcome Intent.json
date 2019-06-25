@@ -1,0 +1,36 @@
+{
+  "id": "6fe0416f-aa57-47f4-aa5f-2c164823a6c9",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": [
+            "ようこそ。営業時間をお伝えするか、または、予約を受けつけます。どちらがご希望でしょうか？",
+            "ありがとうございます。こちらでは、営業時間のご案内、予約の受付を行います。どちらをご希望でしょうか？",
+            "こんにちは。営業時間のご案内、または予約の受付ができます。本日のご用件はいかがでしょうか？"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

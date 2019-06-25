@@ -1,0 +1,38 @@
+{
+  "id": "92c767b7-4b1d-4e40-954e-a19f51b29023",
+  "parentId": "5dcb155c-3d37-4af7-bd7e-af2fe343ce59",
+  "rootParentId": "5dcb155c-3d37-4af7-bd7e-af2fe343ce59",
+  "name": "reservation - no",
+  "auto": true,
+  "contexts": [
+    "reservation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reservation.reservation-no",
+      "affectedContexts": [
+        {
+          "name": "reservation-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "了解しました。ご指定の予約をキャンセルいたしました。ほかに何か御用はありますでしょうか？"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

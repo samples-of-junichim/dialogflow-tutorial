@@ -1,0 +1,30 @@
+{
+  "id": "f6e81f00-21ca-40d1-901b-08cea57be5b4",
+  "name": "reservation - suggestion - yes",
+  "auto": true,
+  "contexts": [
+    "reservation-suggestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "reservation.reservation-yes-2",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "a7ad25ab-f7e7-4521-83a4-b940eee504e3",
+    "data": [
+      {
+        "text": "久しぶり",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8e10c520-7b55-48f1-a9f2-8d9eecfcbb0a",
+    "data": [
+      {
+        "text": "今日は",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1916dd4c-a44f-4ff3-b374-f8fe3a85f499",
+    "data": [
+      {
+        "text": "こんにちは",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d59d7e76-cb0e-4cc9-b72c-77e4e5fa8c40",
+    "data": [
+      {
+        "text": "どうも",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d596547e-785e-4d0e-8537-1f2baf2868e7",
+    "data": [
+      {
+        "text": "やあ、君",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15c2e59c-0afd-485d-9a1b-70f0ab0d20f4",
+    "data": [
+      {
+        "text": "やあ",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6a2d00c7-9bba-4587-b134-13fc9172116b",
+    "data": [
+      {
+        "text": "ご挨拶します",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cc2bfd91-3e92-4648-938d-963b17f1af4b",
+    "data": [
+      {
+        "text": "はい、こんにちは",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a2df3418-cd3b-4d88-89ec-97cecf2e8637",
+    "data": [
+      {
+        "text": "皆さん、こんにちは",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

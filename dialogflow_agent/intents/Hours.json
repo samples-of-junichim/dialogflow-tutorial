@@ -1,0 +1,44 @@
+{
+  "id": "4f35a181-9888-4bf5-91b4-5810cfbd7de3",
+  "name": "Hours",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "74afe9ef-4c43-44e7-8df5-daf84fadf6d4",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "b9510e7a-4a13-4dbe-8e51-e6056c7a74ff",
+          "required": false,
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "午前9時から午後5時まで営業しております。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

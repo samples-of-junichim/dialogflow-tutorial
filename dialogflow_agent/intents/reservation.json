@@ -1,0 +1,74 @@
+{
+  "id": "5dcb155c-3d37-4af7-bd7e-af2fe343ce59",
+  "name": "reservation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "reservation-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7239770d-528e-4781-97b7-c8bb1c6b49ac",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "わかりました。いつ来ることができますか？"
+            },
+            {
+              "lang": "ja",
+              "value": "ご来店日時を教えてください"
+            },
+            {
+              "lang": "ja",
+              "value": "了解しました。修理の日はいつにしますか？"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "9e968d12-1803-4636-b969-d3e5686e73fd",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            {
+              "lang": "ja",
+              "value": "何時にいたしますか？"
+            },
+            {
+              "lang": "ja",
+              "value": "予約の時間は何時にしましょうか？"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "了解しました。予約を $date の $time にお取りしました。よろしくお願いします。"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
