@@ -1,0 +1,26 @@
+#!/bin/bash
+#
+# Dialogflow Agent zipファイル 作成スクリプト
+#
+# 2019/6/25 Junichi MORI
+
+# set -eu の理由
+# https://qiita.com/magicant/items/f3554274ee500bddaca8#shebang-%E3%81%AB-bash-%E3%82%92%E6%98%8E%E7%A4%BA%E3%81%97%E3%82%8D
+set -eu
+
+script_dir=$(cd $(dirname $0); pwd)
+service_root_dir=$(dirname $script_dir)
+agent_dir=$service_root_dir/dialogflow_agent
+
+function build() {
+
+    local ZIPFILE=BikeShopExample.zip
+
+    echo zip -r $ZIPFILE ./*
+    zip -r $ZIPFILE ./*
+    cp -p $ZIPFILE ../
+}
+
+cd $agent_dir
+build
+
