@@ -18,7 +18,7 @@ function build() {
 
     echo zip -r $ZIPFILE ./*
     zip -r $ZIPFILE ./*
-    cp -p $ZIPFILE ../
+    mv $ZIPFILE ../
 }
 
 cd $agent_dir
