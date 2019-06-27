@@ -7,30 +7,7 @@
 'use strict';
 
 // 戻り値
-let response = {
-    "fulfillmentText": "This is a text response",
-    "fulfillmentMessages": [],
-    "source": "example.com",
-    "payload": {},
-    "outputContexts": [
-        {
-            "name": "projects/${PROJECT_ID}/agent/sessions/${SESSION_ID}/contexts/context name",
-            "lifespanCount": 5,
-            "parameters": {
-                "param": "param value"
-            }
-        }
-    ],
-    /*
-    "followupEventInput": {
-        "name": "event name",
-        "languageCode": "en-US",
-        "parameters": {
-            "param": "param value"
-        }
-    }
-    */
-};
+let response;
 let requestBody;
 
 exports.fulfillmentHandler = async function(event) {
@@ -52,6 +29,7 @@ exports.fulfillmentHandler = async function(event) {
     const intent = body.queryResult.intent;
     console.log("intent: " + JSON.stringify(intent));
 
+    response = createResponse();
     requestBody = body;
 
     // レスポンスにコンテキストを（ディープ）コピー
@@ -72,6 +50,26 @@ exports.fulfillmentHandler = async function(event) {
         body: JSON.stringify(ret),
     };
     return r;
+}
+
+function createResponse() {
+  let response = {
+    fulfillmentText: "This is a text response",
+    fulfillmentMessages: [],
+    source: "example.com",
+    payload: {},
+    outputContexts: [
+        {
+            name: "projects/${PROJECT_ID}/agent/sessions/${SESSION_ID}/contexts/context name",
+            lifespanCount: 5,
+            parameters: {
+                param: "param value"
+            }
+        }
+    ],
+    followupEventInput: {}
+  };
+  return response;
 }
 
 async function handleRequest(intentMap, intent) {
