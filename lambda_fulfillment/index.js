@@ -24,7 +24,7 @@ exports.fulfillmentHandler = async function(event) {
     let intentMap = new Map();
     intentMap.set('reservation', checkAppointment);
     intentMap.set('reservation - yes', makeAppointment);
-    intentMap.set('reservation - suggestion - yes', suggestAppointment);
+    intentMap.set('suggestion - yes', suggestAppointment);
 
     const intent = body.queryResult.intent;
     console.log("intent: " + JSON.stringify(intent));
@@ -106,20 +106,17 @@ async function checkAppointment() {
   if (flg) {
     response.fulfillmentText = `了解しました。 ${date} 日の ${time} 時の予約でよろしいでしょうか？`;
   } else {
-    response.fulfillmentText = `ごめんなさい。 ${date} 日の ${time} 時は、既に予約が埋まってました。別の日に予約しますか？`;
+    // event を発行
+    response.followupEventInput = {
+      name: "suggest",
+      languageCode: "ja-JP",
+      parameters: {
+          date: date,
+          time: time,
+          suggested_time: "2019-07-22T13:00:00+9:00"
+      }
+    }
 
-    // コンテキストをクリア
-    context.lifespanCount = 0;
-
-    // suggestionコンテキストに切り替え
-    let newContext = JSON.parse(JSON.stringify(context));
-    newContext.name = setNewContext(newContext.name, "reservation-suggestion");
-    newContext.lifespanCount = 3;
-    newContext.parameters = {
-      suggested_time: "2019-07-22T13:00:00+9:00"
-    };
-    console.log("new context: " + JSON.stringify(newContext));
-    response.outputContexts.push(newContext);
   }
   
   console.log("context after: " + JSON.stringify(response));
@@ -159,31 +156,24 @@ async function suggestAppointment() {
 
   console.log("suggestAppointment called");
 
-  const context = getContext(response, "reservation-suggestion");
+  const context = getContext(response, "suggestion-followup");
   if (!context) {
-    console.warn("コンテキスト, " + "reservation-suggestion" + " が見つかりません。");
+    console.warn("コンテキスト, " + "suggestion-followup" + " が見つかりません。");
     throw new Error("no context");
   }
   
   console.log("context before: " + JSON.stringify(response));
 
-  // reservation-suggestion を削除
-  context.lifespanCount = 0;
-
   const suggested_time = context.parameters.suggested_time;
 
-  // followup コンテキストに切り替え
-  let newContext = JSON.parse(JSON.stringify(context));
-  newContext.name = setNewContext(newContext.name, "reservation-followup");
-  newContext.lifespanCount = 3;
-  newContext.parameters = {
-    date: suggested_time,
-    time: suggested_time,
+  // event を発行
+  response.followupEventInput = {
+    name: "suggest-agree",
+    languageCode: "ja-JP",
+    parameters: {
+        suggested_time: suggested_time
+    }
   };
-  response.outputContexts.push(newContext);
-
-  // 応答文
-  response.fulfillmentText = `提案の了解、ありがとうございました。改めて確認しますが、 ${suggested_time} 日の ${suggested_time} 時の予約でよろしいでしょうか？`;
 
   console.log("context after: " + JSON.stringify(response));
 
