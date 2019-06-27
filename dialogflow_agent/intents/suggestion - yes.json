@@ -1,14 +1,16 @@
 {
-  "id": "f6e81f00-21ca-40d1-901b-08cea57be5b4",
-  "name": "reservation - suggestion - yes",
+  "id": "229a13ad-559a-486c-9e5c-a1c03e6f6bb6",
+  "parentId": "83904593-d375-40b9-80dd-182e5e9f193b",
+  "rootParentId": "83904593-d375-40b9-80dd-182e5e9f193b",
+  "name": "suggestion - yes",
   "auto": true,
   "contexts": [
-    "reservation-suggestion"
+    "suggestion-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "reservation.reservation-yes-2",
+      "action": "suggestion.suggestion-yes",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

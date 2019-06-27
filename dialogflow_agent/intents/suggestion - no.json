@@ -1,17 +1,19 @@
 {
-  "id": "d97c4887-fb61-448c-8ccc-945863556a1e",
-  "name": "reservation - suggestion - no",
+  "id": "af602d83-0b6b-4556-b188-1baa8534d99d",
+  "parentId": "83904593-d375-40b9-80dd-182e5e9f193b",
+  "rootParentId": "83904593-d375-40b9-80dd-182e5e9f193b",
+  "name": "suggestion - no",
   "auto": true,
   "contexts": [
-    "reservation-suggestion"
+    "suggestion-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "reservation.reservation-no-2",
+      "action": "suggestion.suggestion-no",
       "affectedContexts": [
         {
-          "name": "reservation-suggestion",
+          "name": "suggestion-followup",
           "parameters": {},
           "lifespan": 0
         }
@@ -21,7 +23,7 @@
         {
           "type": 0,
           "lang": "ja",
-          "speech": "提案の却下、了解しました。なお、ご指定の予約は確保できませんでしたのでご了承ください。ほかに何か御用はありますでしょうか？"
+          "speech": "了解しました。それでは、予約を取り消します。ほかにご用件はありますでしょうか？"
         }
       ],
       "defaultResponsePlatforms": {},

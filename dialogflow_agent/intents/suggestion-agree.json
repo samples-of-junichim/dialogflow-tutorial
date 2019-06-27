@@ -1,0 +1,59 @@
+{
+  "id": "08a2518d-87fb-4ea6-af53-6ef1c8c74dd1",
+  "name": "suggestion-agree",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "reservation-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "suggestion-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "8de24f13-d600-464d-8a06-926e34f3fa3a",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#suggest-agree.suggested_time",
+          "isList": false
+        },
+        {
+          "id": "65bd0eb5-7471-4450-b27c-61c7862ac4c8",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "#suggest-agree.suggested_time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "提案の了解、ありがとうございました。改めて確認しますが、 $date 日の $time 時の予約でよろしいでしょうか？"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "suggest-agree"
+    }
+  ]
+}

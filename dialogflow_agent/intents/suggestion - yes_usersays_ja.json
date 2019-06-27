@@ -1,9 +1,9 @@
 [
   {
-    "id": "5d5e8ebc-061d-4e84-a251-1849e53c1657",
+    "id": "a5ee54a5-7b55-4eb0-a60d-66d624292108",
     "data": [
       {
-        "text": "いいえ",
+        "text": "そうする",
         "userDefined": false
       }
     ],
@@ -12,22 +12,10 @@
     "updated": 0
   },
   {
-    "id": "6ce0c34a-aac1-4a1d-8e90-dfe5b94e0e76",
+    "id": "bc1c7bb2-7b2f-41e2-b78f-fc0bb6e0959e",
     "data": [
       {
-        "text": "いらない",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "c40bac63-5575-4e74-8c37-83703b6034b8",
-    "data": [
-      {
-        "text": "しないで",
+        "text": "もちろん",
         "userDefined": false
       }
     ],
@@ -36,10 +24,46 @@
     "updated": 0
   },
   {
-    "id": "e3fe8d3d-3a0b-4695-b63e-61efa0f4c7ad",
+    "id": "9de27d0b-fae7-4d1d-8b61-2d6f6fb1a44e",
     "data": [
       {
-        "text": "やだ",
+        "text": "賛成です",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57434145-37b2-454b-8341-6cc1025d37aa",
+    "data": [
+      {
+        "text": "はい",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "aa4fbe1d-b872-440c-b8fb-5577b2d2f0c1",
+    "data": [
+      {
+        "text": "やって",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "dd7781c0-972b-412c-81d0-3a53b21ce9fc",
+    "data": [
+      {
+        "text": "そのとおり",
         "userDefined": false
       }
     ],
@@ -48,58 +72,22 @@
     "updated": 0
   },
   {
-    "id": "c8a0c21b-3fb5-4ddc-9358-f5266affae3b",
+    "id": "54017f1f-184d-45cb-a0ab-d90c57a2b734",
     "data": [
       {
-        "text": "やめとく",
+        "text": "同意します",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 3,
     "updated": 0
   },
   {
-    "id": "6e124372-d87f-437d-98df-63b903bc7571",
+    "id": "86385232-f106-45e3-b16b-8174d3687f62",
     "data": [
       {
-        "text": "結構です",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "65dacde4-7954-47df-9161-dc67f1ccf749",
-    "data": [
-      {
-        "text": "興味ない",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "6a482b5f-f093-4575-ba42-0b90c2a7d488",
-    "data": [
-      {
-        "text": "同意しない",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "updated": 0
-  },
-  {
-    "id": "2ebe8ace-f661-4a5b-932f-e49372729ec5",
-    "data": [
-      {
-        "text": "やらない",
+        "text": "いいよ",
         "userDefined": false
       }
     ],
@@ -108,15 +96,27 @@
     "updated": 0
   },
   {
-    "id": "98b141fa-c55d-43a0-916a-82026fe54654",
+    "id": "eb208f0a-13a4-431a-8bd0-42c86a36e2fe",
     "data": [
       {
-        "text": "やりたくない",
+        "text": "そうだね",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ecae1bc3-0077-4bc5-ab5f-dbe2d4f0c656",
+    "data": [
+      {
+        "text": "そうしよう",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
     "updated": 0
   }
 ]

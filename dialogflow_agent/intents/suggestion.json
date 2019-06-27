@@ -1,0 +1,67 @@
+{
+  "id": "83904593-d375-40b9-80dd-182e5e9f193b",
+  "name": "suggestion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "suggestion-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "reservation-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "da6f5c5d-0dac-410e-ac39-47260651c235",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "#suggest.date",
+          "isList": false
+        },
+        {
+          "id": "29fb7a78-ec7c-4c6b-8b9d-d9187fe67b39",
+          "required": false,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "#suggest.time",
+          "isList": false
+        },
+        {
+          "id": "f0ef7989-6bd1-4d24-a100-a92ced07fa27",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "suggested_time",
+          "value": "#suggest.suggested_time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "ja",
+          "speech": "ごめんなさい。 $date 日の $time は、既に予約が埋まってました。別の日 $suggested_time に予約しますか？"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "suggest"
+    }
+  ]
+}
