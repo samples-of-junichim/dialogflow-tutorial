@@ -20,4 +20,8 @@
 1. Export and import より 作成した zip ファイルを import する
 1. Fulfillment の Webhook URL を自身のサーバーに設定する
 
+## ライセンス
+
+Apache License 2.0 です
+
 以上
